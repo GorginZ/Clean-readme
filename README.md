@@ -122,9 +122,9 @@ The target audience for our clients app can be described as "Anybody that lives 
 
 
 
+<img src="docs/data-flow-diagram.png" width="800">
 
 
-![data-flow-diagram](../../coder_academy/{GeorgiaLeng}_T2A1/docs/data-flow-diagram.png)
 
 
 
@@ -136,15 +136,15 @@ The target audience for our clients app can be described as "Anybody that lives 
 
 
 
-![r2](../../coder_academy/{GeorgiaLeng}_T2A1/docs/r2-4782447.png)
+
+<img src="docs/r2.png" width="800">
 
 
 
 
 
+<img src="docs/Untitled Diagram-3.png" width="800">
 
-
-![Untitled Diagram-3](../../coder_academy/{GeorgiaLeng}_T2A1/docs/Untitled Diagram-3.png)
 
 
 
@@ -154,7 +154,7 @@ The target audience for our clients app can be described as "Anybody that lives 
 
 
 
-![r3](../../coder_academy/{GeorgiaLeng}_T2A1/docs/r3.png)
+<img src="docs/r3.png" width="800">
 
 
 
@@ -232,7 +232,7 @@ In terms of refinement, we started with broader features, as well as less emphas
 
 
 
-![r4](../../coder_academy/{GeorgiaLeng}_T2A1/docs/r4.png)
+<img src="docs/r4.png" width="800">
 
 
 
@@ -244,11 +244,12 @@ In terms of refinement, we started with broader features, as well as less emphas
 
 
 
-![r5](../../coder_academy/{GeorgiaLeng}_T2A1/docs/r5.png)
+<img src="docs/r5.png" width="800">
 
 
 
-![erd](../../coder_academy/{GeorgiaLeng}_T2A1/docs/erd.png)
+<img src="docs/erd.png" width="800">
+
 
 ```
 Project Man_with_a_Broom {
