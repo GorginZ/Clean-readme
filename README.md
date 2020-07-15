@@ -118,7 +118,7 @@ The target audience for our clients app can be described as "Anybody that lives 
 
 
 
-![r1](../../coder_academy/{GeorgiaLeng}_T2A1/docs/r1.png)
+<img src="docs/r1.png" width="800">
 
 
 
