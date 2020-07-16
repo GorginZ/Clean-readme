@@ -12,7 +12,7 @@
 
 We were tasked with creating a website for a client who owns a home-cleaning business. The purpose of our app was to fulfill the clients criteria with respect to design and functionality.
 
-The site was to be easily accessible by all users,  it was to have a clean design that communicated all information regarding services effectively. Acessability and easy straight-forward booking process are a core focus.
+The site was to be easily accessible by all users,  it was to have a clean design that communicated all information regarding services effectively. Accessability and easy straight-forward booking process are a core focus.
 
 #### **Functionality / features**
 
