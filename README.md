@@ -12,7 +12,7 @@
 
 We were tasked with creating a website for a client who owns a home-cleaning business. The purpose of our app was to fulfill the clients criteria with respect to design and functionality.
 
-The site was to be easily accessible by all users,  it was to have a clean design that communicated all information regarding srevices effectively. Acessability and easy straight-forward booking process are a core focus.
+The site was to be easily accessible by all users,  it was to have a clean design that communicated all information regarding services effectively. Acessability and easy straight-forward booking process are a core focus.
 
 #### **Functionality / features**
 
@@ -30,7 +30,7 @@ Users choose a time and date for their service and can set up recurring services
 
 #### **Pre-paid with Stripe checkout**
 
-Users pay the amount they were quoted. This feature encourages and gives ease of mind when signing up for a one off or recuring service and helps the business take on more regular customers. 
+Users pay the amount they were quoted. This feature encourages and gives ease of mind when signing up for a one off or recurring service and helps the business take on more regular customers. 
 
 We have implemented stripe checkout for this feature of our app, which is a third party service that handles all the security, and other problems associated with using credit cards over the internet. Once the user has selected all their desired variables(Time/day, cleaning pack, etc) we will prompt them to checkout, which will take them to a separate page in which they can enter their card details and process the payment.
 
@@ -56,7 +56,7 @@ Profile pictures for the cleaners will be stored by using amazon's S3 cloud host
 
 #### **Target audience**
 
-The target audience for our clients app can be described as "Anybody that lives in a home" as anybody that lives in a house could be somebody that would use the service, however we have given special consideration to ensuring the app is accessible and inclusive with respect to acessability of the app itself and in our understanding of user-stories. Whether they're old and retired, young and busy, single mums, big family, injured and need help, air bnb needs a clean before next guest the app is targeting homes broadly. 
+The target audience for our clients app can be described as "Anybody that lives in a home" as anybody that lives in a house could be somebody that would use the service, however we have given special consideration to ensuring the app is accessible and inclusive with respect to accessability of the app itself and in our understanding of user-stories. Whether they're old and retired, young and busy, single mums, big family, injured and need help, air bnb needs a clean before next guest the app is targeting homes broadly. 
 
  
 
