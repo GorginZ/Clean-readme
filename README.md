@@ -243,10 +243,10 @@ In terms of refinement, we started with broader features, as well as less emphas
 
 **<u>Navbar</u>**
 
-This website has a non-fixed navigation bar at the top of the page which allows easy access for the user. It is non-fixed to add to the asthetic of the website.
+This website has a non-fixed navigation bar at the top of the page which allows easy access for the user. It is non-fixed to add to the aesthetic of the website.
 
-- The logo on the navber will allow users to access back to the homepage regardless of which page they are on
-- The same Navbar is featured on most pages (except the form), allowing for persistant design 
+- The logo on the navbar will allow users to access back to the homepage regardless of which page they are on
+- The same Navbar is featured on most pages (except the form), allowing for persistent design 
 - Highlights the most important links to the user - about me, services and login 
 - Telephone number available just the situation customer wants to directly call the company to find out more information
 
@@ -254,7 +254,7 @@ This website has a non-fixed navigation bar at the top of the page which allows 
 
 - A quick, simple quotation system allows users to find out how much it will cost to clean their house. 
 - Quotation Function: To provide users with an immediate, approximate quotation dependent on their home. This is the most important aspect of the website hence displayed as the first item on the landing page. Price will be updated accordingly. 
-- The first section of the website will include a background cover image which will take up approximately 85% of the front page, leaving room for the nav bar and a little bit of the section below. This was a concious decision as it will allow users to know that there is more information below the landing page image, prompting them to scroll down the website to find out more about the company. 
+- The first section of the website will include a background cover image which will take up approximately 85% of the front page, leaving room for the nav bar and a little bit of the section below. This was a conscious decision as it will allow users to know that there is more information below the landing page image, prompting them to scroll down the website to find out more about the company. 
 
 - Catch phrases that embody our company- peace of mind, cleaning checklist, eco-friendly products (which will be more clearly explained in the about me / services section)
   - Peace of mind - Housekeepers have had police checks done 
@@ -274,7 +274,7 @@ This website has a non-fixed navigation bar at the top of the page which allows 
 **<u>Reviews</u>**
 
 - The fourth and last section of out website will contain client reviews. We have selected the arrows on the side to allow users to scroll through the different reviews and notify them there are more. 
-- Reviews utilised to help gain customers trust and verify our excellent service from external sources of information 
+- Reviews are utilised to help gain customers trust and verify our excellent service from external sources of information 
 
 **<u>Footer</u>**
 
