@@ -132,6 +132,27 @@ The target audience for our clients app can be described as "Anybody that lives 
 
 ------
 
+1. User enters webpage.
+
+2. User uses the tools on the front page to generate a quote.
+
+3. User follows the prompts to create the appointment.
+
+4. Before finalising the payment the system will check if the user is logged in.
+
+5. If not logged in, the user will be prompted to log in, or create an account.
+
+6. The user data is then stored in our database
+
+7. Once logged in, the user will be redirected to the finalise payment page.
+
+8. The user finalises their payment and the data is then stored in our database.
+
+9. The user can then access all past, current or future appointments(events).
+
+
+
+
 **R2**
 
 
