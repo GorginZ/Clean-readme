@@ -92,7 +92,7 @@ The target audience for our clients app can be described as "Anybody that lives 
 
  
 
-**** 
+****
 
 **Other**
 
@@ -261,8 +261,7 @@ Table user {
   username text
   email text
   password encrypted_password
-  profile text
-  
+
 }
 
 Table user_address {
@@ -274,20 +273,17 @@ Table user_address {
   
 }
 
-Table booking_services {
+Table booking_service {
 id bigint pk
-  services_id fk
+  service_id fk
   booking_id fk
   time interger
   quantity integer
 }
-Table services {
+Table service {
 id bigint pk
-  bathroom integer
-  bedroom integer
-  laundry integer
-  dishes integer
-  deep_clean integer
+ title string
+ price integer
 }
 Table booking {
 
@@ -312,15 +308,17 @@ Table event {
 }
 
 
+
+
 Ref: "user"."id" < "user_address"."id"
 
 Ref: "user_address"."id" < "booking"."user_address_id"
 
 Ref: "user"."id" < "booking"."user_id"
 
-Ref: "booking_services"."services_id" > "services"."id"
+Ref: "booking_service"."service_id" > "service"."id"
 
-Ref: "booking"."id" < "booking_services"."booking_id"
+Ref: "booking"."id" < "booking_service"."booking_id"
 
 Ref: "user_address"."event" < "event"."id"
 ```
