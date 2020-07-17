@@ -150,6 +150,7 @@ SemanticUI
 
 \- React(Javascript library)
 
+\- Amazon S3 buckets
  
 
 
