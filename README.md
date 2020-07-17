@@ -90,13 +90,49 @@ The target audience for our clients app can be described as "Anybody that lives 
 
 **Gems / Libraries**
 
+**Features**
+
+-RRule, front end calendar 
+
+-Knock rails JWT authentication and authorisation
+
+-React-big-Calender
+
+-Moment
+
+**Tools**
+
+-database_cleaner    
+
+-rubocop formatting/linting
+
+-Prettier formatting
+
+**Testing tools and frameworks:**
+
+-rspec-rails    
+
+-factory_bot_rails 
+
+-shoulda-matchers    
+
+-Cyprus for end to end testing.
+
+-Mocha 
+
+-Chai
+
+**Design**
+
+SemanticUI
+
  
 
 ****
 
 **Other**
 
- 
+
 
 \- Ruby (Code-Base)
 
@@ -117,8 +153,6 @@ The target audience for our clients app can be described as "Anybody that lives 
 
 
 
-
-<img src="docs/r1.png" width="800">
 
 
 
@@ -153,12 +187,8 @@ The target audience for our clients app can be described as "Anybody that lives 
 
 
 
-**R2**
 
-
-
-
-<img src="docs/r2.png" width="800">
+------
 
 
 
@@ -171,69 +201,66 @@ The target audience for our clients app can be described as "Anybody that lives 
 
 
 
-**R3**
+
+------
 
 
 
-<img src="docs/r3.png" width="800">
 
 
-
- 
-
-\## R4 User stories
+####  * User stories**
 
  
 
-\1. Julie is a single, working mum with 2 kids and doesn't have time for cleaning with her busy lifestyle, she needs the option to have consistent affordable cleaning performed in her house!
+1. Julie is a single, working mum with 2 kids and doesn't have time for cleaning with her busy lifestyle, she needs the option to have consistent affordable cleaning performed in her house!
 
  
 
-\2. Amanda and Simon are partners living together and both working full time with no kids, we clean up after ourselves but don't have the time to do deep cleaning, we want to have the choice to just get the deep cleaning done!
+2. Amanda and Simon are partners living together and both working full time with no kids, we clean up after ourselves but don't have the time to do deep cleaning, we want to have the choice to just get the deep cleaning done!
 
  
 
-\3. Keith and Sue are elderly and retired, they don't have the energy to clean their house anymore, they also don't make much mess. They would like to have the physically taxing cleaning done in their house(vacuuming, mopping, etc)!
+3. Keith and Sue are elderly and retired, they don't have the energy to clean their house anymore, they also don't make much mess. They would like to have the physically taxing cleaning done in their house(vacuuming, mopping, etc)!
 
  
 
-\4. John has allergies and would like the option for the cleaners to use eco-friendly and hypo-allergenic cleaning materials.
+4. John has allergies and would like the option for the cleaners to use eco-friendly and hypo-allergenic cleaning materials.
 
  
 
-\5. Sally has a visual impairment, it is important that the website is accessible to her even if she can’t see the screen.
+5. Sally has a visual impairment, it is important that the website is accessible to her even if she can’t see the screen.
 
  
 
-\6. Kate runs a successful AirBNB business and doesn't have the time to clean the houses anymore, she would like to be able to book multiple houses for regular cleaning.
+6. Kate runs a successful AirBNB business and doesn't have the time to clean the houses anymore, she would like to be able to book multiple houses for regular cleaning.
 
  
 
-\7. Mike is a single adult working full time and studying, he doesn't have time to clean and wants to be able to quickly and easily choose the right cleaning service.
+7. Mike is a single adult working full time and studying, he doesn't have time to clean and wants to be able to quickly and easily choose the right cleaning service.
 
  
 
-\8. Peter is an elderly man living alone, he is not very tech savvy and needs a website that is easy to navigate and would like to be able to request help if he has a problem.
+8. Peter is an elderly man living alone, he is not very tech savvy and needs a website that is easy to navigate and would like to be able to request help if he has a problem.
 
  
 
-\9. Keith has a physical impairment, it is important that he is able to use the website to its fullest functionality.
+9. Keith has a physical impairment, it is important that he is able to use the website to its fullest functionality.
 
  
 
-\10. Zoe has several houses, she would like the flexibility to have multiple services ongoing for the different houses(all under 1 account).
+10. Zoe has several houses, she would like the flexibility to have multiple services ongoing for the different houses(all under 1 account).
 
  
 
-\11. Jacob is moving houses and doesn’t need a regular cleaning service, he is excited that he can book a 1 time clean without making an account.
+11. Jacob is moving houses and doesn’t need a regular cleaning service, he is excited that he can book a 1 time clean without making an account.
 
  
 
-\12. Micah is an admin at "Man with a Broom" it is important to him to be able to edit/remove any reviews that are misleading or inappropriate.
+12. Micah is an admin at "Man with a Broom" it is important to him to be able to edit/remove any reviews that are misleading or inappropriate.
 
  
 
--Revision and Refinement
+**Revision and Refinement**
 
  
 
@@ -247,14 +274,15 @@ In terms of refinement, we started with broader features, as well as less emphas
 
 
 
+------
 
 
-**R4**
 
 
 
-<img src="docs/r4.png" width="800">
 <img src="docs/Wireframes/Homepage-web.png">
+
+
 
 **<u>Website</u>**
 
@@ -326,7 +354,10 @@ This website has a non-fixed navigation bar at the top of the page which allows 
 <img src="docs/Wireframes/Services-web.png">
 <img src="docs/Wireframes/Services-mobile.png">
 
+
+
 **Users are able to start the booking process then they press the booking from $XX button which will redirect to the below form:**
+
 <img src="docs/Wireframes/Form1-web.png">
 <img src="docs/Wireframes/Form1-Mobile.png">
 <img src="docs/Wireframes/Form2-web.png">
@@ -334,17 +365,25 @@ This website has a non-fixed navigation bar at the top of the page which allows 
 <img src="docs/Wireframes/Form3-web.png">
 <img src="docs/Wireframes/Form3-mobile.png">
 
+
+
 **After the stripe payment page, users are redirected to this page:**
 
 <img src="docs/Wireframes/Confirmation.png">
+
+
 
 **Login Page**
 
 Allows users to access their personal home page which contains details of their purchases and schedule of cleans
 <img src="docs/Wireframes/Login.png">
 
+
+
 **Welcome Page**
 <img src="docs/Wireframes/Welcomepage.png">
+
+
 
 **My Bookings (accessed from nav bar or welcome page)**
 <img src="docs/Wireframes/Allbookings.png">
@@ -360,11 +399,11 @@ Allows users to access their personal home page which contains details of their 
 
 
 
-**R5**
+------
 
 
 
-<img src="docs/r5.png" width="800">
+#### **ERD**
 
 
 
@@ -372,76 +411,189 @@ Allows users to access their personal home page which contains details of their 
 
 
 ```
-Project Man_with_a_Broom {
+Project tidy-keep {
   database_type: "PostgreSQL"
 }
 
-Table user {
+Table User {
   id bigint pk
-  username text
   email text
   password encrypted_password
 
 }
 
-Table user_address {
+Table Address {
   id bigint pk
   street_address text
   state text
-  post_code encrypted_password
-  event fk
-  
+  post_code integer
+
 }
 
-Table booking_service {
+Table Booking_Service {
 id bigint pk
-  service_id fk
-  booking_id fk
+  Service_id fk
+  Booking_id fk
   time interger
   quantity integer
 }
-Table service {
+Table Service {
 id bigint pk
  title string
  price integer
 }
-Table booking {
+Table Booking {
 
 id bigint pk
-user_id integer
-user_address_id bigint pk
+user_id bigint
+Address_id bigint pk
 date_of date
 price integer
-}
-
-Table event_meta {
-  id bigint pk
-  event_id fk
-  meta_key bigint
-  meta_value bigint
-}
-Table event {
-  id bigint pk
-  address fk
-  time datetime
-
+recurring boolean
 }
 
 
+Ref: "User"."id" < "Address"."id"
+
+Ref: "Address"."id" < "Booking"."Address_id"
+
+Ref: "User"."id" < "Booking"."user_id"
+
+Ref: "Booking_Service"."Service_id" > "Service"."id"
+
+Ref: "Booking"."id" < "Booking_Service"."Booking_id"
 
 
-Ref: "user"."id" < "user_address"."id"
-
-Ref: "user_address"."id" < "booking"."user_address_id"
-
-Ref: "user"."id" < "booking"."user_id"
-
-Ref: "booking_service"."service_id" > "service"."id"
-
-Ref: "booking"."id" < "booking_service"."booking_id"
-
-Ref: "user_address"."event" < "event"."id"
 ```
 
 
 
+### **Workflow Management**
+
+**Monday**
+
+Georgia to do stand-up
+
+Upon approval of our project we delegated tasks regarding documentation.
+
+Susu 
+
+- to research layouts and frameworks and compile a list of service based web apps to review as group.
+- set up google doc for throwing our readme work for the time being
+
+- set set up trello board
+
+Micah
+
+- to begin research on recurring events and calandar frameworks/libraries with respect to react, 
+
+Georgia 
+
+- to do same with respect to rails keeping in mind how to structure ERD.
+
+- begin draft ERD
+
+  
+  
+
+**Tuesday**
+
+Micah to do Stand up
+
+Group discussion on yesterdays work and sharing our thoughts and feedback. We discussed website flow in relation to wireframes. 
+
+Susu
+
+-  designing wire-frames with a mind to how to implement the designs. 
+
+Micah
+
+- to complete user stories 
+-  data-flow diagram
+
+Georgia
+
+- keep working on ERD as we are still unsure how our tables will be arranged. Georgia to do application achitecture diagram.
+
+  
+  
+
+  
+
+**Wednesday**
+
+Susu to do stand up
+
+- browser wireframes are complete
+- data-flow diagram complete
+- architecture diagram complete
+- ERD is as complete as can be- will be finalized tomorrow 
+
+Susu
+
+- to complete wireframes for tablet and mobile
+
+Micah
+
+- keep researching calander libraries and playing around with that in react
+
+Georgia
+
+- ammendments to architecture diagram 
+
+- compile our readme docs into a remote repo
+
+- start on rails. User auth  
+
+  
+
+**Thursday**
+
+- all wireframes are complete and Susu has done thorough and comprehensive  annotions that clearly convey our approach
+
+- Georgia has hooked up back end and front end log-in/JWT auth so we can have something to practice cyprus on for testing in afternoon lesson
+
+- plan to discuss our diagrams / get feedback with Ed and Harrison and discuss recurring event approaches for front end and with respect to DB. We have looked at a number of libraries and want to run these by them
+
+- Micah showed us the Calandar library he has been playing around with for React. This work has been done in a seperate repo to our react project because we have not decided on an approach as of yet. We do not want to start integrating the calandar stuff until we know it will work with our back end.
+
+  
+
+team discussion with Ed and Harrison
+
+- Georgia to ammend architecture design diagram to include a external user browser
+
+- include logs / journal in read me. 
+
+  
+  
+
+**Friday**
+
+Georgia to do stand up
+
+Morning discussion
+
+- final ammendments made to: ERD, remove event tables that we will not be using, confirm our datatypes are approrpiate, checks that tables are named appropriately with respect to best practices and convention.
+- overview of our documentation. Fixes to file typos not rendering images. Compiling the last of our docs for part A, logs of our team management process.
+- TDD approach for models. Susu and Georgia to asess and work on Service model and Services controller and keep the ball rolling with respect to testing. 
+- team resolved to utilize seperate trello for next assignment to keep it clean and tidy and seperate concerns
+
+
+Our workflow is available to view on our Trello Board:
+
+https://trello.com/b/p5FIvvJs/simple-project-board
+
+
+
+**Tuesday's Trello board**
+
+<img src="docs/trello2.png" width="800">
+
+
+
+**Friday's Trello Board**
+
+Ready to submit our part A docs.
+
+<img src="docs/trello5.png" width="800">
