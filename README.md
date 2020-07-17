@@ -216,7 +216,7 @@ SemanticUI
 
  
 
-2. Amanda and Simon are partners living together and both working full time with no kids, we clean up after ourselves but don't have the time to do deep cleaning, we want to have the choice to just get the deep cleaning done!
+2. Amanda and Simon are partners living together and both working full time with no kids, we clean up after ourselves but don't have the time to do deep cleaning, and Amanda has a spine injury which makes deep cleaning especially difficult. We want to have the choice to just get the deep cleaning done that we find difficult time-wise and physically!
 
  
 
@@ -228,7 +228,7 @@ SemanticUI
 
  
 
-5. Sally has a visual impairment, it is important that the website is accessible to her even if she can’t see the screen.
+5. Sally has a visual impairment and utilizes a screen reader. It is important for Sally that the website is accessible to her and appropriately meets her needs.
 
  
 
@@ -244,7 +244,7 @@ SemanticUI
 
  
 
-9. Keith has a physical impairment, it is important that he is able to use the website to its fullest functionality.
+9. Keith has a physical impairment, it is important that he is able to use the website to its fullest functionality and easily to navigate through sections of the website.
 
  
 
@@ -252,11 +252,9 @@ SemanticUI
 
  
 
-11. Jacob is moving houses and doesn’t need a regular cleaning service, he is excited that he can book a 1 time clean without making an account.
+11. Jacob is moving houses and doesn’t need a regular cleaning service, he is excited that he can book a 1 time clean and get an instant automated quote and pay before hand, so he doesn't have to worry  about any surprise charges. 
 
- 
 
-12. Micah is an admin at "Man with a Broom" it is important to him to be able to edit/remove any reviews that are misleading or inappropriate.
 
  
 
