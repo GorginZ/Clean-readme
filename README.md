@@ -94,27 +94,29 @@ The target audience for our clients app can be described as "Anybody that lives 
 
 -RRule, front end calendar 
 
--Knock rails JWT authentication and authorisation
+-Knock rails JWT authentication and authorization
 
 -React-big-Calender
 
 -Moment
 
+-Stripe
+
 **Tools**
 
--database_cleaner    
+-Database_cleaner    
 
--rubocop formatting/linting
+-Rubocop formatting/linting
 
 -Prettier formatting
 
 **Testing tools and frameworks:**
 
--rspec-rails    
+-Rspec-rails    
 
--factory_bot_rails 
+-Factory_bot_rails 
 
--shoulda-matchers    
+-Shoulda-matchers    
 
 -Cyprus for end to end testing.
 
@@ -511,7 +513,7 @@ Micah
 
 Georgia
 
-- keep working on ERD as we are still unsure how our tables will be arranged. Georgia to do application achitecture diagram.
+- keep working on ERD as we are still unsure how our tables will be arranged. Georgia to do application architecture diagram.
 
   
   
@@ -533,11 +535,11 @@ Susu
 
 Micah
 
-- keep researching calander libraries and playing around with that in react
+- keep researching calender libraries and playing around with that in react
 
 Georgia
 
-- ammendments to architecture diagram 
+- amendments to architecture diagram 
 
 - compile our readme docs into a remote repo
 
@@ -547,19 +549,19 @@ Georgia
 
 **Thursday**
 
-- all wireframes are complete and Susu has done thorough and comprehensive  annotions that clearly convey our approach
+- all wireframes are complete and Susu has done thorough and comprehensive  anotations that clearly convey our approach
 
 - Georgia has hooked up back end and front end log-in/JWT auth so we can have something to practice cyprus on for testing in afternoon lesson
 
 - plan to discuss our diagrams / get feedback with Ed and Harrison and discuss recurring event approaches for front end and with respect to DB. We have looked at a number of libraries and want to run these by them
 
-- Micah showed us the Calandar library he has been playing around with for React. This work has been done in a seperate repo to our react project because we have not decided on an approach as of yet. We do not want to start integrating the calandar stuff until we know it will work with our back end.
+- Micah showed us the Calendar library he has been playing around with for React. This work has been done in a separate repo to our react project because we have not decided on an approach as of yet. We do not want to start integrating the calendar stuff until we know it will work with our back end.
 
   
 
 team discussion with Ed and Harrison
 
-- Georgia to ammend architecture design diagram to include a external user browser
+- Georgia to amend architecture design diagram to include a external user browser
 
 - include logs / journal in read me. 
 
@@ -572,10 +574,10 @@ Georgia to do stand up
 
 Morning discussion
 
-- final ammendments made to: ERD, remove event tables that we will not be using, confirm our datatypes are approrpiate, checks that tables are named appropriately with respect to best practices and convention.
+- final amendments made to: ERD, remove event tables that we will not be using, confirm our datatypes are appropriate, checks that tables are named appropriately with respect to best practices and convention.
 - overview of our documentation. Fixes to file typos not rendering images. Compiling the last of our docs for part A, logs of our team management process.
-- TDD approach for models. Susu and Georgia to asess and work on Service model and Services controller and keep the ball rolling with respect to testing. 
-- team resolved to utilize seperate trello for next assignment to keep it clean and tidy and seperate concerns
+- TDD approach for models. Susu and Georgia to access and work on Service model and Services controller and keep the ball rolling with respect to testing. 
+- team resolved to utilize separate Trello for next assignment to keep it clean and tidy and separate concerns
 
 
 Our workflow is available to view on our Trello Board:
