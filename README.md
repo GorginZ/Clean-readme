@@ -412,7 +412,7 @@ Allows users to access their personal home page which contains details of their 
 
 
 ```
-Project tidy-keep {
+Project Tidy-Keep {
   database_type: "PostgreSQL"
 }
 
@@ -428,6 +428,7 @@ Table User {
 
 Table Address {
   id bigint pk
+  User_id fk
   street_address text
   state text
   post_code integer
@@ -457,7 +458,6 @@ recurring boolean
 }
 
 
-Ref: "User"."id" < "Address"."id"
 
 Ref: "Address"."id" < "Booking"."Address_id"
 
@@ -467,7 +467,7 @@ Ref: "Booking_Service"."Service_id" > "Service"."id"
 
 Ref: "Booking"."id" < "Booking_Service"."Booking_id"
 
-
+Ref: "User"."id" < "Address"."User_id"
 
 
 ```
