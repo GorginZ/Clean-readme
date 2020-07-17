@@ -336,7 +336,7 @@ This website has a non-fixed navigation bar at the top of the page which allows 
 
 **After the stripe payment page, users are redirected to this page:**
 
-<img src="docs/Wireframes/confirmation.png">
+<img src="docs/Wireframes/Confirmation.png">
 
 **Login Page**
 
@@ -347,13 +347,13 @@ Allows users to access their personal home page which contains details of their 
 <img src="docs/Wireframes/welcomepage.png">
 
 **My Bookings (accessed from nav bar or welcome page)**
-<img src="docs/Wireframes/allbookings.png">
-<img src="docs/Wireframes/singleshowpagebooking.png">
+<img src="docs/Wireframes/Allbookings.png">
+<img src="docs/Wireframes/Singleshowpagebooking.png">
 <img src="docs/Wireframes/editbooking.png">
-<img src="docs/Wireframes/userdetail.png">
-<img src="docs/Wireframes/usereditpage.png">
+<img src="docs/Wireframes/Userdetail.png">
+<img src="docs/Wireframes/Usereditpage.png">
 <img src="docs/Wireframes/userpurchases.png">
-<img src="docs/Wireframes/userpurchasessingle.png">
+<img src="docs/Wireframes/Userpurchasessingle.png">
 <img src="docs/Wireframes/TCpage.png">
 
 
