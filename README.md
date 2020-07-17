@@ -328,7 +328,7 @@ This website has a non-fixed navigation bar at the top of the page which allows 
 
 **Users are able to start the booking process then they press the booking from $XX button which will redirect to the below form:**
 <img src="docs/Wireframes/Form1-web.png">
-<img src="docs/Wireframes/Form1-mobile.png">
+<img src="docs/Wireframes/Form1-Mobile.png">
 <img src="docs/Wireframes/Form2-web.png">
 <img src="docs/Wireframes/Form2-mobile.png">
 <img src="docs/Wireframes/Form3-web.png">
