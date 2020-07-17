@@ -12,7 +12,7 @@
 
 We were tasked with creating a website for a client who owns a home-cleaning business. The purpose of our app was to fulfill the clients criteria with respect to design and functionality.
 
-The site was to be easily accessible by all users,  it was to have a clean design that communicated all information regarding srevices effectively. Acessability and easy straight-forward booking process are a core focus.
+The site was to be easily accessible by all users,  it was to have a clean design that communicated all information regarding services effectively. Accessability and easy straight-forward booking process are a core focus.
 
 #### **Functionality / features**
 
@@ -30,7 +30,7 @@ Users choose a time and date for their service and can set up recurring services
 
 #### **Pre-paid with Stripe checkout**
 
-Users pay the amount they were quoted. This feature encourages and gives ease of mind when signing up for a one off or recuring service and helps the business take on more regular customers. 
+Users pay the amount they were quoted. This feature encourages and gives ease of mind when signing up for a one off or recurring service and helps the business take on more regular customers. 
 
 We have implemented stripe checkout for this feature of our app, which is a third party service that handles all the security, and other problems associated with using credit cards over the internet. Once the user has selected all their desired variables(Time/day, cleaning pack, etc) we will prompt them to checkout, which will take them to a separate page in which they can enter their card details and process the payment.
 
@@ -56,7 +56,7 @@ Profile pictures for the cleaners will be stored by using amazon's S3 cloud host
 
 #### **Target audience**
 
-The target audience for our clients app can be described as "Anybody that lives in a home" as anybody that lives in a house could be somebody that would use the service, however we have given special consideration to ensuring the app is accessible and inclusive with respect to acessability of the app itself and in our understanding of user-stories. Whether they're old and retired, young and busy, single mums, big family, injured and need help, air bnb needs a clean before next guest the app is targeting homes broadly. 
+The target audience for our clients app can be described as "Anybody that lives in a home" as anybody that lives in a house could be somebody that would use the service, however we have given special consideration to ensuring the app is accessible and inclusive with respect to accessability of the app itself and in our understanding of user-stories. Whether they're old and retired, young and busy, single mums, big family, injured and need help, air bnb needs a clean before next guest the app is targeting homes broadly. 
 
  
 
@@ -131,6 +131,27 @@ The target audience for our clients app can be described as "Anybody that lives 
 
 
 ------
+
+1. User enters webpage.
+
+2. User uses the tools on the front page to generate a quote.
+
+3. User follows the prompts to create the appointment.
+
+4. Before finalising the payment the system will check if the user is logged in.
+
+5. If not logged in, the user will be prompted to log in, or create an account.
+
+6. The user data is then stored in our database
+
+7. Once logged in, the user will be redirected to the finalise payment page.
+
+8. The user finalises their payment and the data is then stored in our database.
+
+9. The user can then access all past, current or future appointments(events).
+
+
+
 
 **R2**
 
@@ -233,8 +254,107 @@ In terms of refinement, we started with broader features, as well as less emphas
 
 
 <img src="docs/r4.png" width="800">
+<img src="docs/Wireframes/Homepage-web.png">
+
+**<u>Website</u>**
+
+- The design contains white space on the left and right side throughout the website to allow for mobile design
+- Each section of the website will either have an image or color blocked background to allow for contrast and maintain the color theme 
+- Website is a single page scroll down site to ensure users can easily find out more before clicking on links 
+
+**<u>Navbar</u>**
+
+This website has a non-fixed navigation bar at the top of the page which allows easy access for the user. It is non-fixed to add to the aesthetic of the website.
+
+- The logo on the navbar will allow users to access back to the homepage regardless of which page they are on
+- The same Navbar is featured on most pages (except the form), allowing for persistent design 
+- Highlights the most important links to the user - about me, services and login 
+- Telephone number available just the situation customer wants to directly call the company to find out more information
+
+**<u>Hero Image/Quotation</u>**
+
+- A quick, simple quotation system allows users to find out how much it will cost to clean their house. 
+- Quotation Function: To provide users with an immediate, approximate quotation dependent on their home. This is the most important aspect of the website hence displayed as the first item on the landing page. Price will be updated accordingly. 
+- The first section of the website will include a background cover image which will take up approximately 85% of the front page, leaving room for the nav bar and a little bit of the section below. This was a conscious decision as it will allow users to know that there is more information below the landing page image, prompting them to scroll down the website to find out more about the company. 
+
+- Catch phrases that embody our company- peace of mind, cleaning checklist, eco-friendly products (which will be more clearly explained in the about me / services section)
+  - Peace of mind - Housekeepers have had police checks done 
+  - Cleaning checklist - thorough checklist to ensure all cleans are consistent
+  - Eco-friendly products - safe for children, great for environment, may possibly reach a larger demographic of clients
+
+**<u>About the Company</u>** 
+
+- Second section of the website will provide a small insight for the user, emphasizing on family business. 
+- Button allows clients to find out more on the company 
+
+**<u>Services</u>** 
+
+- The third section will provide quick snapshot of why users should invest their money into a cleaning company's service.
+- Utilising cards and simple icons images to highlight and simplify the point
+
+**<u>Reviews</u>**
+
+- The fourth and last section of out website will contain client reviews. We have selected the arrows on the side to allow users to scroll through the different reviews and notify them there are more. 
+- Reviews are utilised to help gain customers trust and verify our excellent service from external sources of information 
+
+**<u>Footer</u>**
+
+- The foot bar contains the company details, social media icons and terms and conditions. 
+
+- Social media icons for the user to find out more about us through the different mediums
+
+- Online booking link functions as a link to the booking form, allowing user to access immediately rather than scrolling to the top of the page 
+
+- Foot bar is present on most pages(except for the form), allowing for consistent design 
+
+  
+
+<img src="docs/Wireframes/Homepage-mobile.png">
 
 
+
+**About Us page** 
+<img src="docs/Wireframes/Aboutus-web.png">
+<img src="docs/Wireframes/Aboutus-mobile.png">
+
+
+
+
+
+**Services Page**
+
+<img src="docs/Wireframes/Services-web.png">
+<img src="docs/Wireframes/Services-mobile.png">
+
+**Users are able to start the booking process then they press the booking from $XX button which will redirect to the below form:**
+<img src="docs/Wireframes/Form1-web.png">
+<img src="docs/Wireframes/Form1-mobile.png">
+<img src="docs/Wireframes/Form2-web.png">
+<img src="docs/Wireframes/Form2-mobile.png">
+<img src="docs/Wireframes/Form3-web.png">
+<img src="docs/Wireframes/Form3-mobile.png">
+
+**After the stripe payment page, users are redirected to this page:**
+
+<img src="docs/Wireframes/confirmation.png">
+
+**Login Page**
+
+Allows users to access their personal home page which contains details of their purchases and schedule of cleans
+<img src="docs/Wireframes/login.png">
+
+**Welcome Page**
+<img src="docs/Wireframes/welcomepage.png">
+
+**My Bookings (accessed from nav bar or welcome page)**
+<img src="docs/Wireframes/allbookings.png">
+<img src="docs/Wireframes/singleshowpagebooking.png">
+<img src="docs/Wireframes/editbooking.png">
+<img src="docs/Wireframes/userdetail.png">
+<img src="docs/Wireframes/usereditpage.png">
+<img src="docs/Wireframes/userpurchases.png">
+<img src="docs/Wireframes/userpurchasessingle.png">
+<img src="docs/Wireframes/TCpage.png">
 
 
 
