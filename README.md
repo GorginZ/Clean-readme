@@ -341,14 +341,14 @@ This website has a non-fixed navigation bar at the top of the page which allows 
 **Login Page**
 
 Allows users to access their personal home page which contains details of their purchases and schedule of cleans
-<img src="docs/Wireframes/login.png">
+<img src="docs/Wireframes/Login.png">
 
 **Welcome Page**
-<img src="docs/Wireframes/welcomepage.png">
+<img src="docs/Wireframes/Welcomepage.png">
 
 **My Bookings (accessed from nav bar or welcome page)**
 <img src="docs/Wireframes/Allbookings.png">
-<img src="docs/Wireframes/Singleshowpagebooking.png">
+<img src="docs/Wireframes/SingleShowpagebooking.png">
 <img src="docs/Wireframes/editbooking.png">
 <img src="docs/Wireframes/Userdetail.png">
 <img src="docs/Wireframes/Usereditpage.png">
