@@ -151,7 +151,7 @@ SemanticUI
 \- React(Javascript library)
 
 \- Amazon S3 buckets
- 
+
 
 
 
@@ -418,6 +418,9 @@ Project tidy-keep {
 
 Table User {
   id bigint pk
+  first_name string
+  last_name string
+  phone integer
   email text
   password encrypted_password
 
@@ -463,6 +466,8 @@ Ref: "User"."id" < "Booking"."user_id"
 Ref: "Booking_Service"."Service_id" > "Service"."id"
 
 Ref: "Booking"."id" < "Booking_Service"."Booking_id"
+
+
 
 
 ```
